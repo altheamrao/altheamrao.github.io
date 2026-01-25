@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        =============================================
+        PROJECT PAGE TEMPLATE
+        =============================================
+        TO USE THIS TEMPLATE:
+        1. Duplicate this file
+        2. Rename it (e.g., "my-project.html")
+        3. Replace all [PLACEHOLDER] text with your content
+        4. Update the <title> tag
+        5. Add your images to /assets/images/projects/[project-name]/
+        6. Update image paths below
+        =============================================
+    -->
+    <title>[PROJECT TITLE] | Althea M. Rao</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- Navigation (loaded dynamically) -->
+        <div id="nav-placeholder"></div>
+        <script src="../js/nav.js"></script>
+
+        <main class="main-content">
+            <article class="project-page">
+                <!-- [REPLACE] Project Header -->
+                <header class="project-header">
+                    <h1>[PROJECT TITLE]</h1>
+                    <p class="project-meta">
+                        [Month Day, Year] - [Month Day, Year]<br>
+                        [Gallery/Venue Name], [City]
+                    </p>
+                    <!-- Optional: Materials/Medium -->
+                    <p class="project-meta">
+                        [Materials list]
+                    </p>
+
+                    <!--
+                        CREDITS OPTIONS (choose one style or omit):
+
+                        Option A: Production/Film Credits
+                        <ul class="credits-list">
+                            <li><span class="credit-role">Director:</span> Name</li>
+                            <li><span class="credit-role">Producer:</span> Name</li>
+                            <li><span class="credit-role">Cast:</span> Actor 1, Actor 2</li>
+                        </ul>
+
+                        Option B: Artist/Performer Credits
+                        <ul class="artist-credits">
+                            <li>Performer Name <span class="artist-role">as Character</span></li>
+                            <li>Musician Name <span class="artist-role">– Instrument</span></li>
+                        </ul>
+                    -->
+                </header>
+
+                <!-- [REPLACE] Project Description -->
+                <section class="project-description">
+                    <p>
+                        [Your project description goes here. Explain the concept,
+                        process, and meaning of the work.]
+                    </p>
+
+                    <p>
+                        [Additional paragraph if needed.]
+                    </p>
+
+                    <!--
+                        TIP: To italicize artwork/work titles in text, use:
+                        <em class="work-title">The Work Title</em>
+                    -->
+
+                    <!--
+                        SCREENING/EXHIBITION LIST (optional):
+                        <h4>Selected Screenings</h4>
+                        <ul class="screening-list">
+                            <li><span class="screening-year">2024</span> Festival Name, City, State</li>
+                            <li><span class="screening-year">2023</span> Another Festival, City</li>
+                        </ul>
+                    -->
+                </section>
+
+                <!--
+                    VIDEO SECTION (optional - delete if no video)
+                    For MP4 files, place in: /assets/videos/
+                -->
+                <section class="project-media">
+                    <div class="video-container">
+                        <video controls playsinline>
+                            <source src="../assets/videos/[video-filename].mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </section>
+
+                <!-- Project Images -->
+                <section class="project-gallery">
+                    <a href="../assets/images/projects/[project-name]/image-01.jpg"
+                       class="glightbox"
+                       data-gallery="project-gallery"
+                       data-title="[Image description]">
+                        <img src="../assets/images/projects/[project-name]/image-01.jpg"
+                             alt="[Describe this image]"
+                             loading="lazy">
+                    </a>
+
+                    <a href="../assets/images/projects/[project-name]/image-02.jpg"
+                       class="glightbox"
+                       data-gallery="project-gallery"
+                       data-title="[Image description]">
+                        <img src="../assets/images/projects/[project-name]/image-02.jpg"
+                             alt="[Describe this image]"
+                             loading="lazy">
+                    </a>
+                </section>
+
+                <!-- Photo Credit (optional) -->
+                <p class="photo-credit">
+                    Photography: [Photographer Name]
+                </p>
+            </article>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox',
+            touchNavigation: true,
+            loop: true,
+            closeButton: true
+        });
+    </script>
+</body>
+</html>

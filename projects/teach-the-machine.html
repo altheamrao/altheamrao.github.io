@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teach The Machine Something About Cloud | Althea M. Rao</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- Navigation (loaded dynamically) -->
+        <div id="nav-placeholder"></div>
+        <script src="../js/nav.js"></script>
+
+        <main class="main-content">
+            <article class="project-page">
+                <header class="project-header">
+                    <h1>Teach The Machine Something About Cloud</h1>
+                    <p class="project-meta">
+                        2024<br>
+                        SOIL Artist Run Gallery, Seattle, Washington
+                    </p>
+                    <p class="project-meta">
+                        Glazed ceramic, silk fiber, formica dining set, video, computer vision, cloud simulation, TouchDesigner
+                    </p>
+                </header>
+
+                <section class="project-description">
+                    <p>
+                        Teach The Machine Something About Cloud (2024) is an interactive installation exploring data, perception, and human-machine interaction. Set at SOIL Artist Run Gallery in Seattle, it invites viewers to engage with a vintage yellow table covered in one-inch ceramic cubes, each containing soft blue silk fibers that resemble fog. Above the table, a yellow window frame displays a generative cloud animation, subtly influenced by the arrangement of the cubes below, with a webcam quietly watching.
+                    </p>
+
+                    <p>
+                        The installation uses an AI-driven cloud simulation, responding to shapes and colors detected by the webcam. Viewers can interact by following a guided four-step process: flipping and arranging the cubes to create patterns, translating these onto a 9x10 grid, converting the grid into binary code, and pairing it with a written thought on “clouds.” Through this sequence, participants contribute to an arbitary dataset.
+                    </p>
+
+                    <p>
+                        Teach The Machine Something About Cloud mocks the over-datafication of the world, technocapitalism’s occupation of cloud as a language domain, as well as the subjective, unquantifiable and impossible-to-unify nature of human labor involved in data production that is always situated in different corporeal bodies. Viewers encounter the limits of machine logic and grapple with abstract prompts—What does “cloud” mean? What would I teach a machine about it? By blending random human input with AI, the work underscores the complexities of data creation and hints at a future where human subjectivity holds value beyond algorithmic precision.
+                    </p>
+
+                   
+                </section>
+
+                <!-- Video Section -->
+                <section class="project-media">
+                    <div class="video-container">
+                        <video controls playsinline>
+                            <source src="../assets/videos/teach-the-machine.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </section>
+
+                <!-- Image Gallery -->
+                <section class="project-gallery">
+                    <a href="../assets/images/projects/teach-the-machine/01.jpg"
+                       class="glightbox" data-gallery="teach-the-machine">
+                        <img src="../assets/images/projects/teach-the-machine/01.jpg"
+                             alt="Teach The Machine Something About Cloud" loading="lazy">
+                    </a>
+                    <a href="../assets/images/projects/teach-the-machine/02.jpg"
+                       class="glightbox" data-gallery="teach-the-machine">
+                        <img src="../assets/images/projects/teach-the-machine/02.jpg"
+                             alt="Teach The Machine Something About Cloud" loading="lazy">
+                    </a>
+                    <a href="../assets/images/projects/teach-the-machine/03.jpg"
+                       class="glightbox" data-gallery="teach-the-machine">
+                        <img src="../assets/images/projects/teach-the-machine/03.jpg"
+                             alt="Teach The Machine Something About Cloud" loading="lazy">
+                    </a>
+                    <a href="../assets/images/projects/teach-the-machine/04.jpg"
+                       class="glightbox" data-gallery="teach-the-machine">
+                        <img src="../assets/images/projects/teach-the-machine/04.jpg"
+                             alt="Teach The Machine Something About Cloud" loading="lazy">
+                    </a>
+                </section>
+
+                <p class="project-link">
+                    <a href="https://soilart.org/exhibitions-2024/october-2024-survival-machine" target="_blank" rel="noopener">
+                        View exhibition at SOIL Gallery →
+                    </a>
+                </p>
+            </article>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox',
+            touchNavigation: true,
+            loop: true,
+            closeButton: true
+        });
+    </script>
+</body>
+</html>

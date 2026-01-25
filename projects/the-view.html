@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The View | Althea M. Rao</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- Navigation (loaded dynamically) -->
+        <div id="nav-placeholder"></div>
+        <script src="../js/nav.js"></script>
+
+        <main class="main-content">
+            <article class="project-page">
+                <header class="project-header">
+                    <h1>The View</h1>
+                    <p class="project-meta">
+                        2019<br>
+                        Artspace, New Haven
+                    </p>
+                    <p class="project-meta">
+                        Mixed media
+                    </p>
+                </header>
+
+                <section class="project-description">
+                    <p>
+                        The View is a growing drawing and installation series featuring the frontal vaginal view of women’s bodies once women historically were excluded from. We see vaginas being opened up with tools, examined by gloved hands, scraped by a spatula, cut by a surgical knife, stretched thin as an infant pushes through. These images calmly flesh out the invasiveness of medical procedures done to women’s bodies, often without informed consent due to ineffective communication, barriers to understanding and patriarchal traditions. 
+                    </p>
+
+                    <p>
+                        While exposing the most intimate secrets and demystifying historical imaginations, this view has morphed into its own myth for further interpretation.
+                    </p>
+                </section>
+
+                <section class="project-gallery">
+                    <a href="../assets/images/projects/the-view/01.jpg"
+                       class="glightbox" data-gallery="the-view">
+                        <img src="../assets/images/projects/the-view/01.jpg"
+                             alt="The View" loading="lazy">
+                    </a>
+                    <a href="../assets/images/projects/the-view/02.jpg"
+                       class="glightbox" data-gallery="the-view">
+                        <img src="../assets/images/projects/the-view/02.jpg"
+                             alt="The View" loading="lazy">
+                    </a>
+                    <a href="../assets/images/projects/the-view/03.jpg"
+                       class="glightbox" data-gallery="the-view">
+                        <img src="../assets/images/projects/the-view/03.jpg"
+                             alt="The View" loading="lazy">
+                    </a>
+                    <a href="../assets/images/projects/the-view/04.jpg"
+                       class="glightbox" data-gallery="the-view">
+                        <img src="../assets/images/projects/the-view/04.jpg"
+                             alt="The View" loading="lazy">
+                    </a>
+                    <a href="../assets/images/projects/the-view/05.jpg"
+                       class="glightbox" data-gallery="the-view">
+                        <img src="../assets/images/projects/the-view/05.jpg"
+                             alt="The View" loading="lazy">
+                    </a>
+                    <a href="../assets/images/projects/the-view/06.jpg"
+                       class="glightbox" data-gallery="the-view">
+                        <img src="../assets/images/projects/the-view/06.jpg"
+                             alt="The View" loading="lazy">
+                    </a>
+                </section>
+            </article>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox',
+            touchNavigation: true,
+            loop: true,
+            closeButton: true
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Althea M. Rao | Artist Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- GLightbox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Welcome Popup (shown once per visitor) -->
+    <div class="welcome-popup-overlay" id="welcomePopup">
+        <div class="welcome-popup">
+            <div class="welcome-popup-header">
+                <h2>Welcome</h2>
+                <button class="welcome-popup-close" id="closePopup" aria-label="Close">&times;</button>
+            </div>
+            <div class="welcome-popup-content">
+                <!-- POPUP CONTENT: Edit the text below to customize your welcome message -->
+                
+                <h1>Why this site moved</h1>
+                
+                <p>
+                    Hi! This is where Althea Rao documents her artistic research. Previously this site was hosted by Adobe Portfolio. It is now hosted by GitHub Pages at altheamrao.github.io.
+                </p>
+                <p>
+                    The internet was originally conceived as a public service. Today, domain names operate as rentable property, controlled and monetized by corporations.
+                </p>
+                <p>
+                    Internet addresses are not abstract. They rely on physical infrastructures—data centers, power grids, fiber-optic cables—and they are governed through geopolitical systems. The .io domain, now widely used by tech companies, is a country-code top-level domain originally assigned to the British Indian Ocean Territory (BIOT), a colonial entity created by the United Kingdom in the 1960s after forcibly displacing the Chagossian people to make way for a U.S. military base on Diego Garcia.
+                </p>
+                <p>
+                   Although the UK has announced plans to relinquish control of the Chagos Archipelago to Mauritius, .io remains active because it persists in the ISO 3166 country code standard maintained through international institutions such as the United Nations and ICANN. The domain continues to generate significant profit, while the displaced Chagossians have no control over its governance or revenue. 
+                </p>
+                <p>
+                    Previously, this site lived on Adobe’s platform. Now it lives on GitHub’s. In both cases, I chose not to purchase a personalized domain under my artist name, as I reject the idea that companies or states have a legitimate right to own and rent internet territory.
+                    
+                </p>
+
+                <p>
+                    Migrating to GitHub means accepting a default .io address. I want to acknowledge this as a politically and historically loaded compromise, not a neutral technical choice.
+                </p>
+                <!-- END POPUP CONTENT -->
+            </div>
+        </div>
+    </div>
+
+    <div class="site-wrapper">
+        <!-- Navigation (loaded dynamically) -->
+        <div id="nav-placeholder"></div>
+        <script src="js/nav.js"></script>
+
+        <!-- ============================================
+             MAIN CONTENT
+             Project grid gallery
+        ============================================ -->
+        <main class="main-content">
+            <section class="project-grid">
+                <!-- Soft Trigger (2025) -->
+                <article class="project-item">
+                    <a href="projects/soft-trigger.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/soft-trigger.jpg"
+                                 alt="Soft Trigger"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Soft Trigger <span class="project-year">2025</span></h3>
+                    </a>
+                </article>
+
+                <!-- Commit to Memory (2025) -->
+                <article class="project-item">
+                    <a href="projects/commit-to-memory.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/commit-to-memory.png"
+                                 alt="Commit to Memory, Know It Will Perish"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Commit to Memory, Know It Will Perish <span class="project-year">2025</span></h3>
+                    </a>
+                </article>
+
+                <!-- Feeling Cloudy (2025) -->
+                <article class="project-item">
+                    <a href="projects/feeling-cloudy.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/feeling-cloudy.jpg"
+                                 alt="Feeling Cloudy"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Feeling Cloudy <span class="project-year">2025</span></h3>
+                    </a>
+                </article>
+
+                <!-- Teach The Machine (2024) -->
+                <article class="project-item">
+                    <a href="projects/teach-the-machine.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/teach-the-machine.jpg"
+                                 alt="Teach The Machine Something About Cloud"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Teach The Machine Something About Cloud <span class="project-year">2024</span></h3>
+                    </a>
+                </article>
+
+                <!-- Ground Ensemble (2024) -->
+                <article class="project-item">
+                    <a href="projects/ground-ensemble.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/ground-ensemble.jpg"
+                                 alt="Ground Ensemble"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Ground Ensemble <span class="project-year">2024</span></h3>
+                    </a>
+                </article>
+
+                <!-- Life Scope (2023) -->
+                <article class="project-item">
+                    <a href="projects/life-scope.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/life-scope.jpg"
+                                 alt="Life Scope"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Life Scope <span class="project-year">2023</span></h3>
+                    </a>
+                </article>
+
+                <!-- Poor Body: Memory Berry (2023) -->
+                <article class="project-item">
+                    <a href="projects/poor-body-memory-berry.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/poor-body-memory-berry.jpg"
+                                 alt="Poor Body: Memory Berry"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Poor Body: Memory Berry <span class="project-year">2023</span></h3>
+                    </a>
+                </article>
+
+                <!-- The Lost Genital Department (2023) -->
+                <article class="project-item">
+                    <a href="projects/lost-genital-department.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/lost-genital-department.jpg"
+                                 alt="The Lost Genital Department: An Opera"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">The Lost Genital Department: An Opera <span class="project-year">2023</span></h3>
+                    </a>
+                </article>
+
+                <!-- Chestful of Whispers (2023) -->
+                <article class="project-item">
+                    <a href="projects/chestful-of-whispers.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/chestful-of-whispers.jpg"
+                                 alt="Chestful of Whispers"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Chestful of Whispers <span class="project-year">2023</span></h3>
+                    </a>
+                </article>
+
+                <!-- Moon Tapestry (2023) -->
+                <article class="project-item">
+                    <a href="projects/moon-tapestry.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/moon-tapestry.jpg"
+                                 alt="Moon Tapestry"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Moon Tapestry <span class="project-year">2023</span></h3>
+                    </a>
+                </article>
+
+                <!-- I Was Once Here (2022) -->
+                <article class="project-item">
+                    <a href="projects/i-was-once-here.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/i-was-once-here.jpg"
+                                 alt="I Was Once Here, I Might Still Be"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">I Was Once Here, I Might Still Be <span class="project-year">2022</span></h3>
+                    </a>
+                </article>
+
+                <!-- Born to Unwilling Parents (2022) -->
+                <article class="project-item">
+                    <a href="projects/born-to-unwilling-parents.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/born-to-unwilling-parents.jpg"
+                                 alt="Born to Unwilling Parents"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Born to Unwilling Parents <span class="project-year">2022</span></h3>
+                    </a>
+                </article>
+
+                <!-- Eat This Cake (2022) -->
+                <article class="project-item">
+                    <a href="projects/eat-this-cake.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/eat-this-cake.png"
+                                 alt="Eat This Cake If It Makes You Happy"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Eat This Cake If It Makes You Happy <span class="project-year">2022</span></h3>
+                    </a>
+                </article>
+
+                <!-- Vagina Chorus (2021) -->
+                <article class="project-item">
+                    <a href="projects/vagina-chorus.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/vagina-chorus.jpg"
+                                 alt="Vagina Chorus"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Vagina Chorus <span class="project-year">2021</span></h3>
+                    </a>
+                </article>
+
+                <!-- The View (2020) -->
+                <article class="project-item">
+                    <a href="projects/the-view.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/the-view.jpg"
+                                 alt="The View"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">The View <span class="project-year">2020</span></h3>
+                    </a>
+                </article>
+
+                <!-- Pillar of Salt (2019) -->
+                <article class="project-item">
+                    <a href="projects/pillar-of-salt.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/pillar-of-salt.jpg"
+                                 alt="Pillar of Salt"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Pillar of Salt <span class="project-year">2019</span></h3>
+                    </a>
+                </article>
+
+                <!-- Touch: the Dance (2017) -->
+                <article class="project-item">
+                    <a href="projects/touch-the-dance.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/touch-the-dance.png"
+                                 alt="Touch: the Dance"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Touch: the Dance <span class="project-year">2017</span></h3>
+                    </a>
+                </article>
+
+                <!-- Blindfold (2017) -->
+                <article class="project-item">
+                    <a href="projects/blindfold.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/blindfold.jpg"
+                                 alt="Blindfold"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Blindfold <span class="project-year">2017</span></h3>
+                    </a>
+                </article>
+
+                <!-- Three Seasons (2017) -->
+                <article class="project-item">
+                    <a href="projects/three-seasons.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/three-seasons.jpg"
+                                 alt="Three Seasons"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Three Seasons <span class="project-year">2017</span></h3>
+                    </a>
+                </article>
+
+                <!-- White Mushroom, Black Earth (2015) -->
+                <article class="project-item">
+                    <a href="projects/white-mushroom-black-earth.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/white-mushroom-black-earth.jpg"
+                                 alt="White Mushroom, Black Earth"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">White Mushroom, Black Earth <span class="project-year">2015</span></h3>
+                    </a>
+                </article>
+
+                <!-- Facebook/Body Talks (2015) -->
+                <article class="project-item">
+                    <a href="projects/facebook-body-talks.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/facebook-body-talks.png"
+                                 alt="Facebook/Body Talks"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Facebook/Body Talks <span class="project-year">2015</span></h3>
+                    </a>
+                </article>
+
+                <!-- Sacred Harp (2015) -->
+                <article class="project-item">
+                    <a href="projects/sacred-harp.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/sacred-harp.png"
+                                 alt="Sacred Harp"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Sacred Harp <span class="project-year">2015</span></h3>
+                    </a>
+                </article>
+
+                <!-- Andante: Kizuna (2013) -->
+                <article class="project-item">
+                    <a href="projects/andante-kizuna.html" class="project-link">
+                        <div class="project-thumbnail">
+                            <img src="assets/images/thumbnails/andante-kizuna.png"
+                                 alt="Andante: Kizuna"
+                                 loading="lazy">
+                        </div>
+                        <h3 class="project-title">Andante: Kizuna <span class="project-year">2013</span></h3>
+                    </a>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <!-- GLightbox JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox',
+            touchNavigation: true,
+            loop: true,
+            closeButton: true
+        });
+    </script>
+
+    <!-- Welcome Popup Script -->
+    <script>
+        (function() {
+            const POPUP_STORAGE_KEY = 'welcomePopupShown';
+            const popup = document.getElementById('welcomePopup');
+            const closeBtn = document.getElementById('closePopup');
+
+            // Check if popup has been shown before
+            if (!localStorage.getItem(POPUP_STORAGE_KEY)) {
+                // Show popup after a short delay
+                setTimeout(() => {
+                    popup.classList.add('active');
+                }, 500);
+            }
+
+            // Close popup and remember preference
+            function closePopup() {
+                popup.classList.remove('active');
+                localStorage.setItem(POPUP_STORAGE_KEY, 'true');
+            }
+
+            closeBtn.addEventListener('click', closePopup);
+
+            // Close when clicking outside the popup
+            popup.addEventListener('click', (e) => {
+                if (e.target === popup) {
+                    closePopup();
+                }
+            });
+
+            // Close on Escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && popup.classList.contains('active')) {
+                    closePopup();
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

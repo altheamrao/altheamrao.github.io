@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blindfold | Althea M. Rao</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- Navigation (loaded dynamically) -->
+        <div id="nav-placeholder"></div>
+        <script src="../js/nav.js"></script>
+
+        <main class="main-content">
+            <article class="project-page">
+                <header class="project-header">
+                    <h1>Blindfold</h1>
+                    <p class="project-meta">
+                        2017<br>
+                        Abington Art Center, Pennsylvania
+                    </p>
+                    <p class="project-meta">
+                        Looped video, 4 x 6 photo prints, fishing wires, flax thread, found images, magazine pages, alcohol cardboard boxes, projector. Projection was mapped with MadMapper.
+                    </p>
+                </header>
+
+                <section class="project-description">
+                    <p>
+                        Blindfold is about the gaze of female and how it is perceived by men, women and everyone in between. The central image of the sculpture is a pair of female eyes projected onto the top one of a pile of card board boxes. Strips of fabric wrapped around the box, attempting to block the gaze. Dozens of 4x6 size photographs are hung from the ceiling. Half of them blank, the other half featured a woman’s blindfolded eyes. Iconic images of seductive female gaze were projection mapped onto the photos, layering symbols of desire that was socially constructed to produce more desires. The boxes in the pile are covered by pages from fashion magazines, then spray painted over. In Blindfold, the female gaze "stands up" to the male gaze.
+
+                    </p>
+                </section>
+
+                <section class="project-gallery">
+                    <a href="../assets/images/projects/blindfold/01.jpg"
+                       class="glightbox" data-gallery="blindfold">
+                        <img src="../assets/images/projects/blindfold/01.jpg"
+                             alt="Installation view of Blindfold" loading="lazy">
+                    </a>
+                </section>
+            </article>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox',
+            touchNavigation: true,
+            loop: true,
+            closeButton: true
+        });
+    </script>
+</body>
+</html>
