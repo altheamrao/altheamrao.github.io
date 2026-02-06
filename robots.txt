@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://altheamrao.github.io/sitemap.xml
