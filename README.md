@@ -228,6 +228,47 @@ After making changes locally:
 4. Click "Commit changes"
 5. Changes go live within a few minutes
 
+### Updating via Command Line
+
+If you prefer using the terminal (faster for frequent updates):
+
+```bash
+# Navigate to your project folder
+cd ~/altheamrao.github.io
+
+# Stage all changes
+git add .
+
+# Create a commit with a descriptive message
+git commit -m "Update project description"
+
+# Push to GitHub
+git push
+```
+
+Changes typically go live within 1-2 minutes after pushing.
+
+### GitHub CLI Authentication
+
+If you get authentication errors when pushing, you may need to re-authenticate:
+
+```bash
+# Login to GitHub CLI
+gh auth login
+
+# Follow the prompts:
+# 1. Choose "GitHub.com"
+# 2. Choose "HTTPS"
+# 3. Choose "Login with a web browser"
+# 4. Copy the one-time code and paste it in your browser
+```
+
+### Video Hosting
+
+Videos for this portfolio are hosted on **Vimeo**, not stored locally in the repository. This keeps the repository size manageable and provides better video playback performance.
+
+To embed a Vimeo video, use the embed code from Vimeo's share options and place it in a `<section class="project-embed">` container.
+
 ## Welcome Popup
 
 A welcome popup appears once when visitors first land on the homepage. After closing, it won't appear again (uses browser localStorage).
