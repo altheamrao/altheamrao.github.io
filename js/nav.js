@@ -14,6 +14,7 @@ const navTemplate = `<aside class="sidebar">
             <h2 class="nav-section-title">Projects</h2>
             <!-- First 10 projects (always visible) -->
             <ul class="nav-list nav-projects">
+                <li><a href="projects/minor-implosion.html">minor implosion</a></li>
                 <li><a href="projects/soft-trigger.html">Soft Trigger</a></li>
                 <li><a href="projects/commit-to-memory.html">Commit to Memory, Know It Will Perish</a></li>
                 <li><a href="projects/feeling-cloudy.html">Feeling Cloudy</a></li>

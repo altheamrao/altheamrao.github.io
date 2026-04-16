@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minor implosion | Althea M. Rao</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- Navigation (loaded dynamically) -->
+        <div id="nav-placeholder"></div>
+        <script src="../js/nav.js"></script>
+
+        <main class="main-content">
+            <article class="project-page">
+                <header class="project-header">
+                    <h1>minor implosion</h1>
+                    <p class="project-meta">
+                        June 2026<br>
+                        Cornish School of Art, Seattle
+                    </p>
+                    <!-- Optional: Materials/Medium -->
+                    <p class="project-meta">
+                        wool, wood, live video rendering, custom networking software co-authored with claude code, openWeatherMap api, AWS Health Dashboard, html and css, raspberry pi 5, LCD screen, nvidia 5090
+                    </p>
+
+                </header>
+
+                <section class="project-description">
+                    <p>
+                        On March 1, 2026, drone strikes hit three Amazon Web Services (AWS) facilities in the United Arab Emirates and Bahrain, marking the first publicly confirmed military attack on a hyperscale cloud provider. The strikes targeted the data centers’ role in supporting U.S. military and intelligence networks. Beyond this specific military function, however, data centers and their related infrastructure also exert a chokehold on civilian technological development and on the conditions of everyday life. The heavily guarded and proprietary cloud holds hostage people’s data, memory, and intelligence. Few of us have access to these buildings; we usually see them in ads or news.
+                    </p>
+
+                    <p>
+                        This distance is part of the cloud’s power. Since the early 1990s, the tech industry has appropriated the word cloud to describe a technical system that benefits from the atmospheric, diffuse, and seemingly immaterial associations the term evokes. Yet the cloud is not abstract. It is physical, territorial, resource-intensive, and vulnerable.
+                    </p>
+                    
+                    <p>
+                        <em class="work-title">minor implosion (2026)</em> takes up this tension between metaphor and materiality. The work features a digitally rendered volumetric cloud in virtual space, driven by real-time weather data from Bahrain and the UAE, as well as health data from the AWS Health Dashboard. Visitors can scan a QR code to visit <a href="strike.html">strike page</a> to drop a missile onto the digital cloud and watch it recover over time. In translating the attack on cloud infrastructure into an interactive simulation, the work collapses the distance between remote military violence, planetary computation, and the symbolic language through which the cloud has been made to appear natural, inevitable, and untouchable.
+                    </p>
+
+                    <ul class="credits-list">
+                        <li><span class="credit-role">Volumetric cloud rendering references:</span></li>
+                        <li> <a href="https://github.com/FarazzShaikh/three-volumetric-clouds" target="_blank" rel="noopener noreferrer"><em>Three Volumetric Clouds</em></a> by Farazz Shaikh</li>
+                        <li> <a href="https://www.guerrilla-games.com/read/nubis-evolved" target="_blank" rel="noopener noreferrer"><em>Nubis Evolved</em></a> by Andrew Schneider</li>
+                    </ul>
+                </section>
+
+
+
+                <!-- Project Images -->
+                <section class="project-gallery">
+                    <a href="../assets/images/projects/minor-implosion/01.png"
+                       class="glightbox"
+                       data-gallery="project-gallery"
+                       data-title="minor implosion, installation view">
+                        <img src="../assets/images/projects/minor-implosion/01.png"
+                             alt="A digitally rendered volumetric cloud"
+                             loading="lazy">
+                    </a>
+
+                    
+                </section>
+
+                
+            </article>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox',
+            touchNavigation: true,
+            loop: true,
+            closeButton: true
+        });
+    </script>
+</body>
+</html>
