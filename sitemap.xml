@@ -17,6 +17,14 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://altheamrao.github.io/projects/lift-a-human-body.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://altheamrao.github.io/projects/minor-implosion.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://altheamrao.github.io/projects/soft-trigger.html</loc>
     <priority>0.7</priority>
   </url>

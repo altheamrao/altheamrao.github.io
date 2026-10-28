@@ -661,6 +661,20 @@ img, video {
     grid-column: 1 / -1;
 }
 
+/* Opt-in: show images at their natural aspect ratio (no cropping) */
+.project-gallery.gallery-natural {
+    align-items: start;
+}
+
+.project-gallery.gallery-natural a {
+    aspect-ratio: auto;
+}
+
+.project-gallery.gallery-natural img {
+    height: auto;
+    object-fit: contain;
+}
+
 .photo-credit {
     font-size: var(--font-size-sm);
     color: var(--text-light);
